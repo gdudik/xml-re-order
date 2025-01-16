@@ -74,7 +74,7 @@ fs.watchFile(inputFile, () => {
         } catch (error) {
             console.error('Error processing file:', error);
         }
-    }, 500); //500ms. Change this value to adjust the delay before processing the file
+    }, 2000); //500ms. Change this value to adjust the delay before processing the file
 });
 
 console.log(`Watching for changes to ${inputFile}...`);
